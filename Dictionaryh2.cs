@@ -26,30 +26,16 @@ namespace DIctionariesh2
             Dictionary<string, object>.ValueCollection valueOfAge = dict.Values;
             Dictionary<string, object>.KeyCollection keyOfName = dict.Keys;
 
-            foreach (object alder in valueOfAge) 
-            {
-                Console.WriteLine("{0} er Gammel", alder);
-            }
-            /*foreach (string navn in keyOfName )
-            {
-                foreach (object alder in valueOfAge) // den køre færdig før navn  skifter
-                {
-                    Console.WriteLine("{0} er {1} Gammel", navn, alder);
-                }
 
-            }*/
-
-            int i = 0;
-            int ii = 0;
-            while (i < keyOfName.Count)
+            foreach (var item in dict )
             {
-                while (ii < valueOfAge.Count)
-                {
-                    Console.WriteLine("{0} er {1} Gammel", keyOfName, valueOfAge);
-                    ii = ii + 1;
-                }
-                i = i + 1;
+                Console.WriteLine("Key:" + item.Key + "value:" + item.Value);
+                
+
             }
+            Console.ReadLine();
+
+
         }
 
         private static void Add(string strkey, object datatype)
