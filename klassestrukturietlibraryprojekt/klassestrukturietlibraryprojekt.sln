@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "klassestrukturietlibraryprojekt", "klassestrukturietlibraryprojekt\klassestrukturietlibraryprojekt.csproj", "{C885832E-0B94-4CDA-A8D3-51B22925B62D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "klassestrukturietlibraryprojekt", "klassestrukturietlibraryprojekt\klassestrukturietlibraryprojekt.csproj", "{C885832E-0B94-4CDA-A8D3-51B22925B62D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{78159847-E289-4158-A697-3106F763C0DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "runit", "runit\runit.csproj", "{03EF17E3-5F6C-44AE-9A81-C911B14DB27B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{78159847-E289-4158-A697-3106F763C0DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78159847-E289-4158-A697-3106F763C0DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78159847-E289-4158-A697-3106F763C0DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03EF17E3-5F6C-44AE-9A81-C911B14DB27B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03EF17E3-5F6C-44AE-9A81-C911B14DB27B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03EF17E3-5F6C-44AE-9A81-C911B14DB27B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03EF17E3-5F6C-44AE-9A81-C911B14DB27B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

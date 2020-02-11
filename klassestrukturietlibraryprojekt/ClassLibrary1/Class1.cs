@@ -63,15 +63,28 @@ namespace ClassLibrary1
     }
     public abstract class Job
     {
+        public int GetMonthleyPay() // 
+        {
+            int Mounthpay;
 
-    }
-    public class HourleyPaidJob : Job
-    {
+            return Mounthpay;
 
+        }
     }
     public class DailyPaidJob : Job
     {
+        private int daylyPay()
+        {
+            
+        }
+    }
+    public class HourleyPaidJob : Job
+    {
+        private int houtleyPay()
+        {
 
-    } 
+        }
+    }
+    
 
 }
